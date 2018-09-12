@@ -1,0 +1,77 @@
+li a{
+    text-align:right;
+}
+.fellow{
+    margin:5%;
+}
+.vignette{
+    position:relative;
+}
+.vignette:hover .reward{
+    display:none;
+}
+.joueur{
+    opacity: 0.7;
+}
+.vignette:hover .joueur{
+    opacity: 1;
+}
+.reward{
+    position:absolute;
+    background:grey;
+    padding: 2%;
+    border-radius: 5px;
+    top:4%;
+    left:12%;
+    right: 12%;
+    text-align: center;
+    font-weight: bold;
+}
+.dead{
+    font-size: 2em;
+    position:absolute;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
+}
+.theWizard{
+    position: absolute;
+    top:25%;
+    left:12%;
+    right: 12%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+.vignette:hover .theWizard{
+    top:75%;
+}
+.captured {
+    margin-top:20px;
+}
+.list-group-item {
+    border:none;
+}
+
+section {
+    margin-top:2%;
+}
+nav-item{
+    margin-top:auto;
+    margin-bottom:auto;
+}
+.social{
+    width: 150px;
+    background: #0069d9;
+    padding:6px;
+    border-radius:5px;
+}
+.reseau{
+    padding-left:15px;
+    color :white;
+}
